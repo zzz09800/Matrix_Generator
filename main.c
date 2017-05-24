@@ -71,7 +71,7 @@ int main(){
 		}
 	}*/
 
-	FILE* fp1 = fopen("/home/andrew/CLionProjects/Belphegor-Generator/cmake-build-debug/lower.txt","w");
+	FILE* fp1 = fopen("lower.txt","w");
 	//FILE *fp1 = fopen("lower.txt","w");
 	//fprintf(fp1,"%d\n",MAT_SIZE);
 
@@ -99,7 +99,7 @@ int main(){
 		}
 	}
 
-	FILE *fp2 = fopen("/home/andrew/CLionProjects/Belphegor-Generator/cmake-build-debug/res.txt","w");
+	FILE *fp2 = fopen("res.txt","w");
 	//FILE *fp2 = fopen("res.txt","w");
 	//fprintf(fp2,"%d\n",MAT_SIZE);
 	for(i=0;i<n;i++)
